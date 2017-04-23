@@ -1,0 +1,73 @@
+html {
+	height: 100%;
+}
+body {
+	min-height: 100%;
+}
+body,ol,figure,h2,ul,li,h3,p {
+	margin: 0;
+	padding: 0;
+}
+ol,ul {
+	list-style: none;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+}
+body > header {
+	height: 80px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #1F8A70;
+	color: #fff;
+	padding: 0 1rem;
+}
+body > main {
+	flex: 1;
+	padding: 1rem;
+}
+body > footer {
+	height: 45px;
+	background-color: #333;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+body > header > span {
+	display: inline-block;
+	width: 107px;
+	height: 28px;
+	background: url(https://p.ssl.qhimg.com/t015417e7ae1b162e37.png) 0 0 no-repeat;
+	background-size: contain;
+	text-indent: -99em;
+}
+main > div {
+	margin-bottom: .8em;
+}
+select {
+	height: 26px;
+	line-height: 26px;
+	border: 1px solid #999;
+	padding-left: .5em;
+}
+button {
+	padding: .5em 1.2em;
+	border-radius: 4px;
+	background-color: #ff9100;
+	border: none;
+	box-shadow: 1px 1px 2px #ccc;
+	color: #fff;
+}
+button:focus {
+	outline: none;
+}
+dl {
+	background-color: #fff1dd;
+	padding: 1rem;
+	border-radius: 4px;
+}

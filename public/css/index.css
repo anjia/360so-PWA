@@ -1,0 +1,6 @@
+.subscription-details {
+	display: block;
+}
+.subscription-details.is-invisible {
+	display: none;
+}

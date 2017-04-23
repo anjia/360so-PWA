@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+	<link rel="icon" href="favicon.png" type="image/png" >
+
+	<title>360搜索技术沙龙</title>
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/index.css">
+
+	<!-- 添加到主屏 -->
+	<link rel="manifest" href="/manifest.json">
+
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#4285f4">
+
+
+	<!-- Windows Phone -->
+	<!-- <meta name="msapplication-navbutton-color" content="#4285f4"> -->
+	<!-- iOS Safari -->
+	<!-- <meta name="apple-mobile-web-app-status-bar-style" content="#4285f4"> -->
+
+
+	<!-- Add to home screen for Safari on iOS -->
+	<!--
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="apple-mobile-web-app-title" content="Weather PWA">
+	<link rel="apple-touch-icon" href="imgs/icons/icon-152x152.png">
+	-->
+</head>
+<body>
+	<header>
+		<h1>PWA</h1>
+		<span>360搜索技术沙龙</span>
+	</header>
+	<main>
+		<!-- demo1: fetch -->
+		<div>
+			技术沙龙：
+			<select id="issues">
+				<option value="1">第1期</option>
+				<option value="2">第2期</option>
+			</select>
+			<button id="btn-add">添加</button>
+		</div>
+
+
+		<!-- demo2: push & notification -->
+		<div>
+			推送消息：<button id="btn-push">Push</button>
+		    <section class="subscription-details js-subscription-details is-invisible">
+		      本示例用 <a href="https://web-push-codelab.appspot.com/" target="_blank">Push Companion Site</a> 模拟服务器，将以下代码复制粘贴到 “Subscription to Send To” 以进行对端的消息推送。
+		      <pre><code class="js-subscription-json"></code></pre>
+		    </section>
+		</div>
+
+
+		<!-- demo3: sync -->
+		<div>
+			后台同步：<button id="btn-sync">注册sync</button>
+		</div>
+
+		<article>
+			<section id="content"></section>
+		</article>
+	</main>
+	<footer>
+		&copy;2017
+	</footer>
+
+	<script type="text/template" id="tpl">
+		<dl>
+			<dt>主题：</dt>
+			<dd>
+				<h3>《{theme}》</h3>
+				<p>{brief}</p>
+			</dd>
+			<dt>嘉宾：</dt>
+			<dd>
+				{author}，{profile}
+			</dd>
+			<dt>更多：</dt>
+			<dd>{video} {ppt}</dd>
+		</dl>
+	</script>
+
+	<script src="js/index.js" async></script>
+</body>
+</html>

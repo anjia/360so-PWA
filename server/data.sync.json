@@ -1,0 +1,52 @@
+{
+		"1": {
+			"title": "360搜索技术沙龙-第二期",
+			"options": {
+				"body": "前端专场将于4月23日举办。点击查看",
+				"icon": "http://wimg.huodongxing.com/logo/201704/4382571957600/212656771863998_v2.jpg@!wmlogo"
+			},
+			"more_url": "http://www.huodongxing.com/event/4382571957600?td=4102633041577&amp;qd=@_weixin"
+		},
+		"2": {
+			"title": "360搜索技术沙龙-资料更新",
+			"options": {
+				"body": "第一期的PPT及视频已上传。点击查看",
+				"icon": "http://wimg.huodongxing.com/logo/201703/8376789432300/942616595148897_v2.jpg@!wmlogo"
+			},
+			"more_url": "http://www.itdks.com/dakashuo/detail/712"
+		},
+		"3": {
+			"title": "谷盛回复...",
+			"options": {
+				"body": "PWA和AMP的区别是blablabla",
+				"icon": "http://cdn.huodongxing.com/file/20161011/113D0A56FD46A3F404E74D9593B13EFC0C/30432656781977689.jpg"
+			},
+			"more_url": ""
+		},
+		"4": {
+			"title": "360搜索技术沙龙-预告",
+			"options": {
+				"body": "第三期将于下月举办。敬请期待",
+				"icon": "http://p5.qhimg.com/t01bf4bb5936bdceddc.png"
+			},
+			"more_url": "",
+			"tag": "反例-不精准"
+		},
+		"5": {
+			"title": "360搜索技术沙龙",
+			"options": {
+				"body": "点击查看",
+				"icon": "http://p5.qhimg.com/t01bf4bb5936bdceddc.png"
+			},
+			"more_url": "",
+			"tag": "反例-描述不清"
+		},
+		"6": {
+			"title": "360浏览器即将支持PWA",
+			"options": {
+				"body": "将于2017.6.1发布内测版。点击查看",
+				"icon": "https://p.ssl.qhimg.com/dmsmfl/120_80_/t018b6d07dad1583afc.webp?size=80x80&phash="
+			},
+			"more_url": ""
+		}
+}
