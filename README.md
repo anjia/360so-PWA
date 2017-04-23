@@ -11,4 +11,4 @@
 
 扫描二维码，关注360搜索技术论坛公众号
 
-![](http://p7.qhimg.com/t012dcb866fdbb9a4ee.png)
+![](https://p.ssl.qhimg.com/t012dcb866fdbb9a4ee.png)
