@@ -1,5 +1,6 @@
 # 360so-PWA
 360搜索技术沙龙，第二期前端专场，PWA技术揭秘，演示demo
+点击查看PPT：[3.PWA技术揭秘.pdf](https://github.com/anjia/360so-PWA/blob/master/3.PWA%E6%8A%80%E6%9C%AF%E6%8F%AD%E7%A7%98.pdf)
 
 # 更多
 360搜索技术沙龙
